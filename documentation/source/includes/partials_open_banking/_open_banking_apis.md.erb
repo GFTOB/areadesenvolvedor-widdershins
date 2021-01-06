@@ -168,6 +168,7 @@ Essa operação não requer autenticação.
 
 <a id="opIdgetBankingAgents"></a>
 
+
 > Code samples
 
 ```javascript
@@ -193,6 +194,9 @@ fetch('http://api.banco.com.br/open-banking/banking-agents',
 `GET /banking-agents`
 
 Método para obter a lista de correspondentes bancários da instituição financeira.
+
+### Visão de alto nível das estruturas de dados
+<img src="images/tld/TLD_Banking_Agents_v1.png">
 
 > Example responses
 
@@ -466,6 +470,9 @@ fetch('http://api.banco.com.br/open-banking/channels/v1/branches',
 
 Método para obter a lista de dependências próprias da instituição financeira.
 
+### Visão de alto nível das estruturas de dados
+<img src="images/tld/TLD_Branches_v1.png">
+
 > Example responses
 
 > 200 Response
@@ -621,6 +628,9 @@ fetch('http://api.banco.com.br/open-banking/channels/v1/electronic-channels',
 
 Método para obter a lista de canais eletrônicos de atendimento da instituição financeira.
 
+### Visão de alto nível das estruturas de dados
+<img src="images/tld/TLD_ElectronicChannels_v1.png">
+
 > Example responses
 
 > 200 Response
@@ -715,6 +725,9 @@ fetch('http://api.banco.com.br/open-banking/channels/v1/phone-channels',
 `GET /channels/v1/phone-channels`
 
 Método para obter a lista de canais telefônicos de atendimento da instituição financeira.
+
+### Visão de alto nível das estruturas de dados
+<img src="images/tld/TLD_PhoneChannels_v1.png">
 
 > Example responses
 
@@ -925,6 +938,9 @@ fetch('http://api.banco.com.br/open-banking/channels/v1/shared-automated-teller-
 
 Método para obter a lista de terminais compartilhados de autoatendimento da instituição financeira.
 
+### Visão de alto nível das estruturas de dados
+<img src="images/tld/TLD_Shared_Automated_Teller_Machines_v1.png">
+
 > Example responses
 
 > 200 Response
@@ -1038,6 +1054,10 @@ fetch('http://api.banco.com.br/open-banking/products-services/v1/personal-accoun
 `GET /products-services/v1/personal-accounts`
 
 Obtém dados das contas
+
+### Visão de alto nível das estruturas de dados
+<img src="images/tld/TLD_Personal_Accounts_v1.png">
+
 
 > Example responses
 
@@ -1179,6 +1199,9 @@ fetch('http://api.banco.com.br/open-banking/products-services/v1/business-accoun
 
 Obtém dados das contas pessoa jurídica
 
+### Visão de alto nível das estruturas de dados
+<img src="images/tld/TLD_Business_Accounts_v1.png">
+
 > Example responses
 
 > 200 Response
@@ -1309,6 +1332,9 @@ fetch('http://api.banco.com.br/open-banking/products-services/v1/personal-loans'
 
 Obtém dados sobre empréstimos pessoa natural
 
+### Visão de alto nível das estruturas de dados
+<img src="images/tld/TLD_Personal_Loans_v1.png">
+
 > Example responses
 
 > 200 Response
@@ -1416,6 +1442,9 @@ fetch('http://api.banco.com.br/open-banking/products-services/v1/business-loans'
 
 Obtém dados sobre empréstimos pessoa jurídica
 
+### Visão de alto nível das estruturas de dados
+<img src="images/tld/TLD_Business_Loans_v1.png">
+
 > Example responses
 
 > 200 Response
@@ -1522,6 +1551,9 @@ fetch('http://api.banco.com.br/open-banking/products-services/v1/personal-credit
 `GET /products-services/v1/personal-credit-cards`
 
 Obtém dados sobre cartões de crédito pessoa natural
+
+### Visão de alto nível das estruturas de dados
+<img src="images/tld/TLD_Personal_Credit_Cards_v1.png">
 
 > Example responses
 
@@ -1658,6 +1690,9 @@ fetch('http://api.banco.com.br/open-banking/products-services/v1/business-credit
 
 Obtém dados sobre cartões de crédito pessoa jurídica
 
+### Visão de alto nível das estruturas de dados
+<img src="images/tld/TLD_Business_Credit_Cards_v1.png">
+
 > Example responses
 
 > 200 Response
@@ -1793,6 +1828,9 @@ fetch('http://api.banco.com.br/open-banking/products-services/v1/personal-financ
 
 Obtém a lista de Financiamentos de Pessoa Natural
 
+### Visão de alto nível das estruturas de dados
+<img src="images/tld/TLD_Personal_Financings_v1.png">
+
 > Example responses
 
 > 200 Response
@@ -1899,6 +1937,9 @@ fetch('http://api.banco.com.br/open-banking/products-services/v1/business-financ
 `GET /products-services/v1/business-financings`
 
 Obtém a lista de Financiamentos de Pessoa Jurídica.
+
+### Visão de alto nível das estruturas de dados
+<img src="images/tld/TLD_Business_Financings_v1.png">
 
 > Example responses
 
@@ -2007,6 +2048,9 @@ fetch('http://api.banco.com.br/open-banking/products-services/v1/personal-invoic
 
 Obtém a lista de Adiantamento de Recebíveis de Pessoa Natural.
 
+### Visão de alto nível das estruturas de dados
+<img src="images/tld/TLD_Personal_Invoice_Financing_v1.png">
+
 > Example responses
 
 > 200 Response
@@ -2113,6 +2157,9 @@ fetch('http://api.banco.com.br/open-banking/products-services/v1/business-invoic
 `GET /products-services/v1/business-invoice-financings`
 
 Obtém a lista de Adiantamento de Recebíveis de Pessoa Jurídica.
+
+### Visão de alto nível das estruturas de dados
+<img src="images/tld/TLD_Business_Invoice_Financing_v1.png">
 
 > Example responses
 
@@ -2221,6 +2268,9 @@ fetch('http://api.banco.com.br/open-banking/products-services/v1/personal-unarra
 
 Obtém a lista de adiantamento de depositante de Pessoa Natural.
 
+### Visão de alto nível das estruturas de dados
+<img src="images/tld/TLD_Personal_Unarranged_Account_Overdraft_v1.png">
+
 > Example responses
 
 > 200 Response
@@ -2323,6 +2373,9 @@ fetch('http://api.banco.com.br/open-banking/products-services/v1/business-unarra
 `GET /products-services/v1/business-unarranged-account-overdraft`
 
 Obtém a lista de adiantamento de depositante de Pessoa Jurídica.
+
+### Visão de alto nível das estruturas de dados
+<img src="images/tld/TLD_Business_Unarranged_Account_Overdraft_v1.png">
 
 > Example responses
 
